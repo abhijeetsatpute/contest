@@ -1,0 +1,43 @@
+{
+  "name": "contest",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Naming contest app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeetsatpute/contest.git",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node server.js"
+  },
+  "author": "Abhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijeetsatpute/contest/issues"
+  },
+  "homepage": "https://github.com/abhijeetsatpute/contest#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongodb": "^4.5.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.14.0",
+    "eslint-plugin-react": "^7.29.4",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
